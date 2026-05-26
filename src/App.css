@@ -95,3 +95,7 @@ input:focus {
   box-shadow: none !important;
   border-color: #0d6efd !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
