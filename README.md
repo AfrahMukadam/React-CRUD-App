@@ -1,8 +1,18 @@
 ## Responsive User Management CRUD Application
 
+A modern and responsive frontend CRUD application built with React.js that integrates with REST APIs to manage users efficiently.
 
-A responsive frontend CRUD application built with React.js using REST APIs.
+This application allows users to:
+- View all users
+- Create new users
+- Edit existing users
+- Delete users
+- Search users
+- View user details
 
+The project focuses on clean UI/UX, reusable component architecture, responsive design, API integration, and maintainable frontend development practices.
+
+---
 ## Features
 
 - View all users
@@ -31,18 +41,6 @@ A responsive frontend CRUD application built with React.js using REST APIs.
 
 ---
 
-### Edit User
-
-![Edit User](./screenshots/edit-user.png)
-
----
-
-### User Details
-
-![User Details](./screenshots/user-details.png)
-
----
-
 ### Form Validation
 
 ![Form Validation](./screenshots/form-validation.png)
@@ -55,6 +53,20 @@ A responsive frontend CRUD application built with React.js using REST APIs.
 
 ---
 
+### User Details
+
+![User Details](./screenshots/user-details.png)
+
+---
+
+### Edit User
+
+![Edit User](./screenshots/edit-user.png)
+
+---
+
+
+
 ## Tech Stack
 
 - React.js
@@ -63,21 +75,90 @@ A responsive frontend CRUD application built with React.js using REST APIs.
 - Bootstrap
 - React Icons
 
+---
+
+# Key Features
+
+## Responsive User Interface
+
+- Fully responsive layout
+- Mobile-friendly design
+- Modern card-based UI
+- Smooth user experience
+
+---
+
+## Form Validation
+
+Implemented validation for:
+- Required fields
+- Email format validation
+- Username validation
+- Restriction of special characters and numbers in name field
+
+---
+
+## Error Handling
+
+Implemented proper error handling using:
+- try/catch blocks
+- User-friendly alerts
+- Error states for failed API requests
+
+---
+
+## Loading States
+
+Added loading indicators while fetching API data for better user experience.
+
+---
+
+## Reusable Components
+
+Reusable components created for:
+- Navbar
+- User cards
+- User forms
+- Loader
+
+This improves:
+- scalability
+- maintainability
+- code reusability
+
+---
+
 ## Folder Structure
 
-src/
+```txt
+src
+│
 ├── api
+│   └── userApi.js
+│
 ├── components
+│   ├── Loader.js
+│   ├── Navbar.js
+│   ├── UserCard.js
+│   └── UserForm.js
+│
 ├── pages
+│   ├── CreateUser.js
+│   ├── EditUser.js
+│   ├── Home.js
+│   └── UserDetails.js
+│
 ├── App.js
-└── App.css
+├── App.css
+└── index.js
+```
 
 ## Installation
 
 ### Clone repository
 
 ```bash
-git clone YOUR_GITHUB_LINK
+git clone https://github.com/AfrahMukadam/React-CRUD-App.git
 ```
 
 ### Install dependencies
@@ -94,7 +175,19 @@ npm start
 
 ## API Integration
 
-Integrated with backend REST APIs using Axios.
+# API Integration
+
+Integrated with backend APIs using Axios.
+
+### API Endpoints Used
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/users/` | Fetch all users |
+| POST | `/users` | Create new user |
+| GET | `/users/{id}/` | Get user details |
+| PATCH | `/users/{id}` | Update user |
+| DELETE | `/users/{id}/` | Delete user |
 
 ## Evaluation Criteria Covered
 
