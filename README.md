@@ -21,37 +21,37 @@ A responsive frontend CRUD application built with React.js using REST APIs.
 
 ### Home Page
 
-![Home Page](./screenshots/All Users.png)
+![Home Page](./screenshots/all-users.png)
 
 ---
 
 ### Create User
 
-![Create User](./screenshots/Create User.png)
+![Create User](./screenshots/create-user.png)
 
 ---
 
 ### Edit User
 
-![Edit User](./screenshots/Edit User.png)
+![Edit User](./screenshots/edit-user.png)
 
 ---
 
 ### User Details
 
-![User Details](./screenshots/User Details.png)
+![User Details](./screenshots/user-details.png)
 
 ---
 
 ### Form Validation
 
-![Form Validation](./screenshots/Form Validation.png)
+![Form Validation](./screenshots/form-validation.png)
 
 ---
 
 ### Search Users
 
-![Search Users](./screenshots/Search Users.png)
+![Search Users](./screenshots/search-users.png)
 
 ---
 
