@@ -17,6 +17,44 @@ A responsive frontend CRUD application built with React.js using REST APIs.
 - Error handling
 - Reusable components
 
+## Application Preview
+
+### Home Page
+
+![Home Page](./screenshots/All Users.png)
+
+---
+
+### Create User
+
+![Create User](./screenshots/Create User.png)
+
+---
+
+### Edit User
+
+![Edit User](./screenshots/Edit User.png)
+
+---
+
+### User Details
+
+![User Details](./screenshots/User Details.png)
+
+---
+
+### Form Validation
+
+![Form Validation](./screenshots/Form Validation.png)
+
+---
+
+### Search Users
+
+![Search Users](./screenshots/Search Users.png)
+
+---
+
 ## Tech Stack
 
 - React.js
