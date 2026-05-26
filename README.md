@@ -12,7 +12,7 @@ This application allows users to:
 
 The project focuses on clean UI/UX, reusable component architecture, responsive design, API integration, and maintainable frontend development practices.
 
----
+
 ## Features
 
 - View all users
@@ -33,31 +33,31 @@ The project focuses on clean UI/UX, reusable component architecture, responsive 
 
 ![Home Page](./screenshots/all-users.png)
 
----
+
 
 ### Create User
 
 ![Create User](./screenshots/create-user.png)
 
----
+
 
 ### Form Validation
 
 ![Form Validation](./screenshots/form-validation.png)
 
----
+
 
 ### Search Users
 
 ![Search Users](./screenshots/search-users.png)
 
----
+
 
 ### User Details
 
 ![User Details](./screenshots/user-details.png)
 
----
+
 
 ### Edit User
 
@@ -121,11 +121,6 @@ Reusable components created for:
 - User forms
 - Loader
 
-This improves:
-- scalability
-- maintainability
-- code reusability
-
 ---
 
 ## Folder Structure
@@ -173,7 +168,6 @@ npm install
 npm start
 ```
 
-## API Integration
 
 # API Integration
 
@@ -189,15 +183,6 @@ Integrated with backend APIs using Axios.
 | PATCH | `/users/{id}` | Update user |
 | DELETE | `/users/{id}/` | Delete user |
 
-## Evaluation Criteria Covered
-
-- Clean UI/UX
-- Responsive design
-- Component reusability
-- Error handling
-- Form validation
-- Proper folder structure
-- API integration
 
 ## Author
 
